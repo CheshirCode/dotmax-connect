@@ -1,6 +1,18 @@
-let arr1 = ['050', '100', '294', '358'];
-console.log(arr1);
-// let arr2 = arr1.splice(1, 1, '735', '777');
-// console.log(arr2);
-arr1.splice(0, 1, '735', '777');
-console.log(arr1);
+document.querySelector("#searchCard").oninput = function () {
+  let val = this.value.trim();
+
+  let searchItems = document.querySelectorAll(".searchCard .phone__card");
+  if (val != "") {
+    searchItems.forEach(function (elem) {
+      if (elem.innerText.search(val) == -1) {
+        elem.classList.add("hide");
+      } else {
+        elem.classList.remove("hide");
+      }
+    });
+  } else {
+    searchItems.forEach(function (elem) {
+      elem.classList.remove("hide");
+    });
+  }
+};
