@@ -141,6 +141,7 @@ body.lock {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	Background-attachment: fixed;
 }
 
 [class*="__container"] {
