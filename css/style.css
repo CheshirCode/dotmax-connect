@@ -239,7 +239,7 @@ body.lock {
 	margin: 15px;
 	display: flex;
 	justify-content: center;
-	text-align: center;
+	text-align: left;
 	/* margin: 0 auto; */
 }
 
