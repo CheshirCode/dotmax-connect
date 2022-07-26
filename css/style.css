@@ -218,7 +218,14 @@ body.lock {
 
 }
 
+.input {
+	border: 1px solid rgb(192, 17, 17);
+	margin: 15px;
+
+}
+
 .ceo__container,
+.search__field__container,
 .logistics__container,
 .warehouse__container,
 .delievery__container {
@@ -233,7 +240,8 @@ body.lock {
 .ceo__body,
 .logistics__body,
 .warehouse__body,
-.delievery__body {
+.delievery__body,
+.input {
 	margin: 15px;
 	display: flex;
 	justify-content: center;
@@ -326,7 +334,7 @@ h1, h2 {
 }
 
 #searchCard {
-	width: 100%;
+	width: 90%;
 	height: 50px;
 	margin: 10px;
 	padding: 20px;
