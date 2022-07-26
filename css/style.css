@@ -231,6 +231,43 @@ body.lock {
 	margin: 15px;
 }
 
+@supports (-webkit-touch-callout: none) {
+
+	/* CSS specific to iOS devices */
+	.ceo__container,
+	.search__field__container,
+	.logistics__container,
+	.warehouse__container,
+	.delievery__container {
+		position: relative;
+		padding: 10px;
+		border: 2px solid #DFEBEA;
+		border-radius: 10px;
+		background: rgba(0, 0, 0, 0.589);
+		margin: 15px;
+	}
+}
+
+@supports not (-webkit-touch-callout: none) {
+	/* CSS for other than iOS devices */
+}
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+
+	.ceo__container,
+	.search__field__container,
+	.logistics__container,
+	.warehouse__container,
+	.delievery__container {
+		position: relative;
+		padding: 10px;
+		border: 2px solid #DFEBEA;
+		border-radius: 10px;
+		background: rgba(0, 0, 0, 0.589);
+		margin: 15px;
+	}
+}
+
 .ceo__body,
 .logistics__body,
 .warehouse__body,
@@ -349,14 +386,14 @@ h1, h2 {
 }
 
 .footer__body {
-	display: flex;
+
 	color: rgba(255, 0, 4, 0.63);
 }
 
 .footer__item {
 	margin: 20px;
 	padding: 10px;
-	flex: 1 1 33.333%;
+
 }
 
 .copyright {
