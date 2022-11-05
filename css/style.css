@@ -222,7 +222,8 @@ body.lock {
 .search__field__container,
 .logistics__container,
 .warehouse__container,
-.delievery__container {
+.delievery__container,
+.security__container {
 	position: relative;
 	padding: 10px;
 	border: 2px solid #DFEBEA;
@@ -238,7 +239,8 @@ body.lock {
 	.search__field__container,
 	.logistics__container,
 	.warehouse__container,
-	.delievery__container {
+	.delievery__container,
+	.security__container {
 		position: relative;
 		padding: 10px;
 		border: 2px solid #DFEBEA;
@@ -258,7 +260,8 @@ body.lock {
 	.search__field__container,
 	.logistics__container,
 	.warehouse__container,
-	.delievery__container {
+	.delievery__container,
+	.security__container {
 		position: relative;
 		padding: 10px;
 		border: 2px solid #DFEBEA;
@@ -272,6 +275,7 @@ body.lock {
 .logistics__body,
 .warehouse__body,
 .delievery__body,
+.security__body,
 .input {
 	margin: 15px;
 	display: flex;
@@ -313,6 +317,12 @@ h1, h2 {
 	object-fit: cover;
 }
 
+.security__body .phone__card {
+	background-image: url('../img/security.jpg');
+	background-position: center;
+	object-fit: cover;
+}
+
 
 @media (max-width: 720px) {
 
@@ -327,7 +337,7 @@ h1, h2 {
 
 .card-image img {
 	max-width: 100px;
-	height: 100px;
+	height: 100%;
 }
 
 .full-name__text {
