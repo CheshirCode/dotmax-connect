@@ -142,11 +142,13 @@ body.lock {
 	background-size: cover;
 	background-position: center;
 	Background-attachment: fixed;
+	position: relative;
 }
 
 [class*="__container"] {
 	margin: 0 auto;
 	max-width: 1200px;
+
 }
 
 .toTop {
@@ -176,10 +178,10 @@ body.lock {
 	margin: 15px;
 	padding: 20px;
 	display: flex;
-	-webkit-border-radius: 10px;
+	/* -webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	-ms-border-radius: 10px;
-	-o-border-radius: 10px;
+	-o-border-radius: 10px; */
 }
 
 .logo__text {
@@ -205,7 +207,6 @@ body.lock {
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
-
 }
 
 .warning__text {
@@ -215,7 +216,7 @@ body.lock {
 .main {
 	flex: 1 1 auto;
 	margin: 0 auto;
-
+	position: relative;
 }
 
 .ceo__container,
@@ -224,12 +225,11 @@ body.lock {
 .warehouse__container,
 .delievery__container,
 .security__container {
-	position: relative;
+	margin: 15px;
 	padding: 10px;
 	border: 2px solid #DFEBEA;
 	border-radius: 10px;
 	background: rgba(0, 0, 0, 0.589);
-	margin: 15px;
 }
 
 @supports (-webkit-touch-callout: none) {
@@ -272,16 +272,17 @@ body.lock {
 }
 
 .ceo__body,
+.search__field__container,
 .logistics__body,
 .warehouse__body,
 .delievery__body,
 .security__body,
 .input {
-	margin: 15px;
+	margin: 0 auto;
+	margin: 10px;
 	display: flex;
 	justify-content: center;
 	text-align: center;
-	/* margin: 0 auto; */
 }
 
 h1, h2 {
@@ -294,13 +295,22 @@ h1, h2 {
 
 .phone__card {
 	margin: 15px 10px;
-	width: 290px;
+	width: 30%;
 	height: 100%;
 	border-radius: 10px;
 	background-image: url('../img/black-metal-background-or-texture_88281-4080.jpg');
 	background-position: 0 0;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+@media (max-width: 500px) {
+
+	.security__body,
+	.phone__card {
+		display: block;
+		width: 95%;
+	}
 }
 
 .logistics__body .phone__card {
@@ -359,6 +369,7 @@ h1, h2 {
 }
 
 .subceo__body,
+.search__field__container,
 .logistics__body,
 .warehouse__body,
 .delievery__body {
@@ -368,6 +379,24 @@ h1, h2 {
 	text-align: center;
 	margin: 0 auto;
 	flex-wrap: wrap;
+
+}
+
+@media (max-width:680px) {
+
+	.search__field__container,
+	.subceo__body,
+	.logistics__body,
+	.warehouse__body,
+	.delievery__body,
+	.security__container {
+		display: block;
+		position: relative;
+		justify-content: space-around;
+		text-align: center;
+		margin: 15px;
+		flex-wrap: wrap;
+	}
 }
 
 .phone__card.hide {
@@ -378,7 +407,7 @@ h1, h2 {
 	width: 90%;
 	height: 50px;
 	margin: 10px;
-	padding: 20px;
+	padding: 10px;
 	font-size: 1.5rem;
 	background: #302d2d;
 	border-radius: 5px;
