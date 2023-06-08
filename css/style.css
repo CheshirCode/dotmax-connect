@@ -379,7 +379,7 @@ h1, h2 {
 	text-align: center;
 	margin: 0 auto;
 	flex-wrap: wrap;
-
+	margin: 15px;
 }
 
 @media (max-width:680px) {
