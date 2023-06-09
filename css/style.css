@@ -302,6 +302,7 @@ h1, h2 {
 	background-position: 0 0;
 	background-repeat: no-repeat;
 	background-size: cover;
+	object-fit: contain;
 }
 
 @media (max-width: 500px) {
