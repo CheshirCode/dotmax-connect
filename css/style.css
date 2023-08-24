@@ -219,11 +219,18 @@ body.lock {
 	position: relative;
 }
 
+.info__container,
 .ceo__container,
-.search__field__container,
+.fines__container,
+.mechanics__container,
+.accounting__container,
+.search_field__container,
+.repair__container,
 .logistics__container,
+.sublogistics__container,
 .warehouse__container,
 .delievery__container,
+.subdivision__container,
 .security__container {
 	margin: 15px;
 	padding: 10px;
@@ -235,11 +242,18 @@ body.lock {
 @supports (-webkit-touch-callout: none) {
 
 	/* CSS specific to iOS devices */
+	.info__container,
 	.ceo__container,
-	.search__field__container,
+	.fines__container,
+	.mechanics__container,
+	.accounting__container,
+	.search_field__container,
+	.repair__container,
 	.logistics__container,
+	.sublogistics__container,
 	.warehouse__container,
 	.delievery__container,
+	.subdivision__container,
 	.security__container {
 		position: relative;
 		padding: 10px;
@@ -256,11 +270,18 @@ body.lock {
 
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
 
+	.info__container,
 	.ceo__container,
-	.search__field__container,
+	.fines__container,
+	.mechanics__container,
+	.accounting__container,
+	.search_field__container,
+	.repair__container,
 	.logistics__container,
+	.sublogistics__container,
 	.warehouse__container,
 	.delievery__container,
+	.subdivision__container,
 	.security__container {
 		position: relative;
 		padding: 10px;
@@ -272,10 +293,16 @@ body.lock {
 }
 
 .ceo__body,
-.search__field__container,
+.fines__body,
+.mechanics__body,
+.accounting__body,
+.search_field__container,
+.repair__body,
 .logistics__body,
+.sublogistics__body,
 .warehouse__body,
 .delievery__body,
+.subdivision__body,
 .security__body,
 .input {
 	margin: 0 auto;
@@ -285,13 +312,24 @@ body.lock {
 	text-align: center;
 }
 
-h1, h2 {
+h1, h2, h3 {
 	font-family: "landroverweb_bold";
 	padding: 20px 0;
-	font-size: 2rem;
 	text-align: center;
-
 }
+
+h1 {
+	font-size: 2rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+}
+
+h3 {
+	font-size: 1.2rem;
+}
+
 
 .phone__card {
 	margin: 15px 10px;
@@ -305,25 +343,50 @@ h1, h2 {
 	object-fit: contain;
 }
 
-@media (max-width: 500px) {
+.mechanics__body .phone__card {
+	background-image: url('../img/engineering-blueprint.jpg');
+	background-position: center;
+	object-fit: cover;
+}
 
-	.security__body,
-	.phone__card {
-		display: block;
-		width: 95%;
-	}
+.accounting__body .phone__card {
+	background-image: url('../img/accounting3.jpg');
+	background-position: center;
+	object-fit: cover;
 }
 
 .logistics__body .phone__card {
 	background-image: url('../img/technology.jpg');
+	background-position: center;
+	object-fit: cover;
+}
+
+.sublogistics__body .phone__card {
+	background-image: url('../img/gorod-noch-ogni-moskva-siti-rossiia.jpg');
+	background-position: center;
+	object-fit: cover;
+}
+
+.repair__body .phone__card {
+	background-image: url('../img/diesel-engine.jpg');
+	/* background-position: center; */
+	/* object-fit: cover; */
 }
 
 .warehouse__body .phone__card {
 	background-image: url('../img/pallet.jpg');
+	background-position: center;
+	object-fit: cover;
 }
 
 .delievery__body .phone__card {
 	background-image: url('../img/road.jpg');
+	background-position: center;
+	object-fit: cover;
+}
+
+.subdivision__body .phone__card {
+	background-image: url('../img/traffic.jpg');
 	background-position: center;
 	object-fit: cover;
 }
@@ -334,13 +397,13 @@ h1, h2 {
 	object-fit: cover;
 }
 
-
+/*
 @media (max-width: 720px) {
 
 	.phone__card {
 		margin: 10px 5px;
 	}
-}
+} */
 
 .card-image {
 	margin: 10px;
@@ -371,11 +434,19 @@ h1, h2 {
 
 }
 
+.ceo__body,
+.fines__body,
 .subceo__body,
-.search__field__container,
+.mechanics__body,
+.accounting__body,
+.search_field__container,
+.repair__body,
 .logistics__body,
+.sublogistics__body,
 .warehouse__body,
-.delievery__body {
+.delievery__body,
+.subdivision__body,
+.security__body {
 	position: relative;
 	display: flex;
 	justify-content: space-around;
@@ -383,16 +454,36 @@ h1, h2 {
 	margin: 0 auto;
 	flex-wrap: wrap;
 	margin: 15px;
+
+}
+
+.info__body {
+	padding: 15px;
+	line-height: 1.2;
+}
+
+.info__body span {
+	color: #F21905;
+	text-decoration: underline;
 }
 
 @media (max-width:680px) {
+	.phone__card {
+		display: block;
+		width: 95%;
+	}
 
-	.search__field__container,
+	.ceo__body,
+	.fines__body,
+	.search_field__container,
 	.subceo__body,
+	.repair__body,
 	.logistics__body,
+	.sublogistics__body,
 	.warehouse__body,
 	.delievery__body,
-	.security__container {
+	.subdivision__body,
+	.security__body {
 		display: block;
 		position: relative;
 		justify-content: space-around;
@@ -417,6 +508,8 @@ h1, h2 {
 	color: #DFEBEA;
 	text-align: left;
 }
+
+
 
 .footer {
 	width: 100%;
