@@ -219,7 +219,6 @@ body.lock {
 	position: relative;
 }
 
-.info__container,
 .ceo__container,
 .fines__container,
 .mechanics__container,
@@ -242,7 +241,6 @@ body.lock {
 @supports (-webkit-touch-callout: none) {
 
 	/* CSS specific to iOS devices */
-	.info__container,
 	.ceo__container,
 	.fines__container,
 	.mechanics__container,
@@ -270,7 +268,6 @@ body.lock {
 
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
 
-	.info__container,
 	.ceo__container,
 	.fines__container,
 	.mechanics__container,
@@ -457,15 +454,6 @@ h3 {
 
 }
 
-.info__body {
-	padding: 15px;
-	line-height: 1.2;
-}
-
-.info__body span {
-	color: #F21905;
-	text-decoration: underline;
-}
 
 @media (max-width:680px) {
 	.phone__card {
