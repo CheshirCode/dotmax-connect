@@ -227,6 +227,7 @@ body.lock {
 .repair__container,
 .logistics__container,
 .sublogistics__container,
+.containers__container,
 .warehouse__container,
 .delievery__container,
 .subdivision__container,
@@ -249,6 +250,7 @@ body.lock {
 	.repair__container,
 	.logistics__container,
 	.sublogistics__container,
+	.containers__container,
 	.warehouse__container,
 	.delievery__container,
 	.subdivision__container,
@@ -276,6 +278,7 @@ body.lock {
 	.repair__container,
 	.logistics__container,
 	.sublogistics__container,
+	.containers__container,
 	.warehouse__container,
 	.delievery__container,
 	.subdivision__container,
@@ -297,6 +300,7 @@ body.lock {
 .repair__body,
 .logistics__body,
 .sublogistics__body,
+.containers__body,
 .warehouse__body,
 .delievery__body,
 .subdivision__body,
@@ -360,6 +364,12 @@ h3 {
 
 .sublogistics__body .phone__card {
 	background-image: url('../img/gorod-noch-ogni-moskva-siti-rossiia.jpg');
+	background-position: center;
+	object-fit: cover;
+}
+
+.containers__body .phone__card {
+	background-image: url('../img/container2.jpg');
 	background-position: center;
 	object-fit: cover;
 }
