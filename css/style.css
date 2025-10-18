@@ -221,6 +221,7 @@ body.lock {
 
 .ceo__container,
 .fines__container,
+.fuel__container,
 .mechanics__container,
 .accounting__container,
 .search_field__container,
@@ -244,6 +245,7 @@ body.lock {
 	/* CSS specific to iOS devices */
 	.ceo__container,
 	.fines__container,
+	.fuel__container,
 	.mechanics__container,
 	.accounting__container,
 	.search_field__container,
@@ -272,6 +274,7 @@ body.lock {
 
 	.ceo__container,
 	.fines__container,
+	.fuel__container,
 	.mechanics__container,
 	.accounting__container,
 	.search_field__container,
@@ -294,6 +297,7 @@ body.lock {
 
 .ceo__body,
 .fines__body,
+.fuel__body,
 .mechanics__body,
 .accounting__body,
 .search_field__container,
@@ -356,6 +360,12 @@ h3 {
 	object-fit: cover;
 }
 
+.fuel__body .phone__card {
+	background-image: url('../img/fuel1.jpg');
+	background-position: center;
+	object-fit: cover;
+}
+
 .logistics__body .phone__card {
 	background-image: url('../img/technology.jpg');
 	background-position: center;
@@ -387,13 +397,31 @@ h3 {
 }
 
 .delievery__body .phone__card {
-	background-image: url('../img/road.jpg');
+	background-image: url('../img/astro03.jpg');
 	background-position: center;
 	object-fit: cover;
 }
 
 .subdivision__body .phone__card {
-	background-image: url('../img/traffic.jpg');
+	background-image: url('../img/traffic1.jpg');
+	background-position: center;
+	object-fit: cover;
+}
+
+.china_block .phone__card {
+	background-image: url('../img/china1.jpg');
+	background-position: center;
+	object-fit: cover;
+}
+
+.murmansk_block .phone__card {
+	background-image: url('../img/murmansk.jpg');
+	background-position: center;
+	object-fit: cover;
+}
+
+.containers_block .phone__card {
+	background-image: url('../img/container.jpg');
 	background-position: center;
 	object-fit: cover;
 }
@@ -426,7 +454,7 @@ h3 {
 .full-name__text {
 	padding: 10px 5px;
 	font-weight: 700;
-	color: #F2B705;
+	color: #fff;
 }
 
 .job__title {
@@ -443,6 +471,7 @@ h3 {
 
 .ceo__body,
 .fines__body,
+.fuel__body,
 .subceo__body,
 .mechanics__body,
 .accounting__body,
@@ -473,6 +502,7 @@ h3 {
 
 	.ceo__body,
 	.fines__body,
+	.fuel__body,
 	.search_field__container,
 	.subceo__body,
 	.repair__body,
