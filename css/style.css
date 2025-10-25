@@ -497,7 +497,7 @@ h3 {
 @media (max-width:680px) {
 	.phone__card {
 		display: block;
-		width: 345px;
+		width: 95%;
 	}
 
 	.ceo__body,
@@ -563,4 +563,5 @@ h3 {
 	text-align: center;
 	margin: 5px 10px;
 	padding: 10px;
+
 }
