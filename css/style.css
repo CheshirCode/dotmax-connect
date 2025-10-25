@@ -338,7 +338,7 @@ h3 {
 
 .phone__card {
 	margin: 15px 10px;
-	width: 30%;
+	width: 345px;
 	height: 100%;
 	border-radius: 10px;
 	background-image: url('../img/black-metal-background-or-texture_88281-4080.jpg');
@@ -497,7 +497,7 @@ h3 {
 @media (max-width:680px) {
 	.phone__card {
 		display: block;
-		width: 95%;
+		width: 345px;
 	}
 
 	.ceo__body,
