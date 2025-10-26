@@ -311,7 +311,7 @@ body.lock {
 .security__body,
 .input {
 	margin: 0 auto;
-	margin: 10px;
+	margin: 5px;
 	display: flex;
 	justify-content: center;
 	text-align: center;
@@ -489,7 +489,7 @@ h3 {
 	text-align: center;
 	margin: 0 auto;
 	flex-wrap: wrap;
-	margin: 15px;
+	margin: 5px;
 
 }
 
@@ -516,7 +516,7 @@ h3 {
 		position: relative;
 		justify-content: space-around;
 		text-align: center;
-		margin: 15px;
+		margin: 5px;
 		flex-wrap: wrap;
 	}
 }
@@ -565,4 +565,5 @@ h3 {
 	padding: 10px;
 
 }
+
 
