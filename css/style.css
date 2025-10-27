@@ -311,7 +311,7 @@ body.lock {
 .security__body,
 .input {
 	margin: 0 auto;
-	margin: 5px;
+	margin: 10px;
 	display: flex;
 	justify-content: center;
 	text-align: center;
@@ -432,6 +432,12 @@ h3 {
 	object-fit: cover;
 }
 
+.spb_block .phone__card {
+	background-image: url('../img/spb2.jpg');
+	background-position: center;
+	object-fit: cover;
+}
+
 /*
 @media (max-width: 720px) {
 
@@ -452,6 +458,7 @@ h3 {
 }
 
 .full-name__text {
+	margin: 5px 0px;
 	padding: 10px 5px;
 	font-weight: 700;
 	color: #fff;
@@ -489,7 +496,7 @@ h3 {
 	text-align: center;
 	margin: 0 auto;
 	flex-wrap: wrap;
-	margin: 5px;
+	margin: 15px;
 
 }
 
@@ -516,7 +523,7 @@ h3 {
 		position: relative;
 		justify-content: space-around;
 		text-align: center;
-		margin: 5px;
+		margin: 15px;
 		flex-wrap: wrap;
 	}
 }
@@ -563,7 +570,4 @@ h3 {
 	text-align: center;
 	margin: 5px 10px;
 	padding: 10px;
-
 }
-
-
