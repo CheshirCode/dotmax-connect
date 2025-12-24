@@ -132,6 +132,28 @@ body.lock {
 	color: #F21905;
 }
 
+/* Color Theme Swatches in Hex */
+.Clear-blue-Saimaa-lake-at-sunset, -Finland, -aerial-view.-Picturesque-panoramic-scenery.-Atmospheric-landscape.-Pure-nature, -ecology, -environmental-conservation, -eco-tourism, -travel-destinations-1-hex {
+	color: #759CBF;
+}
+
+.Clear-blue-Saimaa-lake-at-sunset, -Finland, -aerial-view.-Picturesque-panoramic-scenery.-Atmospheric-landscape.-Pure-nature, -ecology, -environmental-conservation, -eco-tourism, -travel-destinations-2-hex {
+	color: #B3DAF2;
+}
+
+.Clear-blue-Saimaa-lake-at-sunset, -Finland, -aerial-view.-Picturesque-panoramic-scenery.-Atmospheric-landscape.-Pure-nature, -ecology, -environmental-conservation, -eco-tourism, -travel-destinations-3-hex {
+	color: #062601;
+}
+
+.Clear-blue-Saimaa-lake-at-sunset, -Finland, -aerial-view.-Picturesque-panoramic-scenery.-Atmospheric-landscape.-Pure-nature, -ecology, -environmental-conservation, -eco-tourism, -travel-destinations-4-hex {
+	color: #D99441;
+}
+
+.Clear-blue-Saimaa-lake-at-sunset, -Finland, -aerial-view.-Picturesque-panoramic-scenery.-Atmospheric-landscape.-Pure-nature, -ecology, -environmental-conservation, -eco-tourism, -travel-destinations-5-hex {
+	color: #F2C6B6;
+}
+
+
 .wrapper {
 	display: flex;
 	flex-direction: column;
@@ -223,6 +245,7 @@ body.lock {
 .fines__container,
 .fuel__container,
 .mechanics__container,
+.submechanics__container,
 .accounting__container,
 .search_field__container,
 .repair__container,
@@ -247,6 +270,7 @@ body.lock {
 	.fines__container,
 	.fuel__container,
 	.mechanics__container,
+	.submechanics__container,
 	.accounting__container,
 	.search_field__container,
 	.repair__container,
@@ -276,6 +300,7 @@ body.lock {
 	.fines__container,
 	.fuel__container,
 	.mechanics__container,
+	.submechanics__container,
 	.accounting__container,
 	.search_field__container,
 	.repair__container,
@@ -299,6 +324,7 @@ body.lock {
 .fines__body,
 .fuel__body,
 .mechanics__body,
+.submechanics__body,
 .accounting__body,
 .search_field__container,
 .repair__body,
@@ -348,94 +374,176 @@ h3 {
 	object-fit: contain;
 }
 
+/* Color Theme Swatches in Hex */
+.UI/UX-1-hex {
+	color: #132426;
+}
+
+.UI/UX-3-hex {
+	color: #03A64A;
+}
+
+.UI/UX-4-hex {
+	color: #0A5926;
+}
+
+.UI/UX-5-hex {
+	color: #08401B;
+}
+
+/* Color Theme Swatches in Hex */
+.UI/UX-Design-for-Marketing-Agency-Website-1-hex {
+	color: #1C2611;
+}
+
+.UI/UX-Design-for-Marketing-Agency-Website-2-hex {
+	color: #31401B;
+}
+
+.UI/UX-Design-for-Marketing-Agency-Website-3-hex {
+	color: #8EA66A;
+}
+
+.UI/UX-Design-for-Marketing-Agency-Website-4-hex {
+	color: #A9BF78;
+}
+
+.UI/UX-Design-for-Marketing-Agency-Website-5-hex {
+	color: #0D0D0D;
+}
+
+/* Color Theme Swatches in Hex */
+.Stork-Web-Design-1-hex {
+	color: #011140;
+}
+
+.Stork-Web-Design-2-hex {
+	color: #010A26;
+}
+
+.Stork-Web-Design-3-hex {
+	color: #011640;
+}
+
+.Stork-Web-Design-4-hex {
+	color: #618C7C;
+}
+
+.Stork-Web-Design-5-hex {
+	color: #0D0D0D;
+}
+
+
 .mechanics__body .phone__card {
-	background-image: url('../img/engineering-blueprint.jpg');
+	/* background-image: url('../img/engineering-blueprint.jpg'); */
+	background: #08401B;
 	background-position: center;
 	object-fit: cover;
+}
+
+.submechanics__body .phone__card {
+	/* background-image: url('../img/engineering-blueprint.jpg'); */
+	background: #08401B;
+	/* background-position: center;
+	object-fit: cover; */
 }
 
 .accounting__body .phone__card {
-	background-image: url('../img/accounting3.jpg');
-	background-position: center;
-	object-fit: cover;
+	/* background-image: url('../img/accounting3.jpg'); */
+	background: #062601;
+	/* background-position: center;
+	object-fit: cover; */
 }
 
 .fuel__body .phone__card {
-	background-image: url('../img/fuel1.jpg');
-	background-position: center;
-	object-fit: cover;
+	/* background-image: url('../img/fuel1.jpg'); */
+	background: #262626;
+	/* background-position: center;
+	object-fit: cover; */
 }
 
 .logistics__body .phone__card {
-	background-image: url('../img/technology.jpg');
-	background-position: center;
-	object-fit: cover;
+	/* background-image: url('../img/technology.jpg'); */
+	background: #132426;
+	/* background-position: center;
+	object-fit: cover; */
 }
 
 .sublogistics__body .phone__card {
-	background-image: url('../img/gorod-noch-ogni-moskva-siti-rossiia.jpg');
-	background-position: center;
-	object-fit: cover;
+	/* background-image: url('../img/gorod-noch-ogni-moskva-siti-rossiia.jpg'); */
+	background: #132426;
+	/* background-position: center;
+	object-fit: cover; */
 }
 
 .containers__body .phone__card {
-	background-image: url('../img/container2.jpg');
-	background-position: center;
-	object-fit: cover;
+	/* background-image: url('../img/container2.jpg');
+	background: #405F73; */
+	/* background-position: center;
+	object-fit: cover; */
 }
 
 .repair__body .phone__card {
-	background-image: url('../img/diesel-engine.jpg');
-	/* background-position: center; */
-	/* object-fit: cover; */
+	/* background-image: url('../img/diesel-engine.jpg'); */
+	background: #08401B;
+	/* background-position: center;
+	object-fit: cover; */
 }
 
 .warehouse__body .phone__card {
-	background-image: url('../img/pallet.jpg');
-	background-position: center;
-	object-fit: cover;
+	/* background-image: url('../img/pallet.jpg'); */
+	background: #401E01;
+	/* background-position: center;
+	object-fit: cover; */
 }
 
 .delievery__body .phone__card {
-	background-image: url('../img/astro03.jpg');
-	background-position: center;
-	object-fit: cover;
+	/* background-image: url('../img/astro03.jpg'); */
+	background: #132426;
+	/* background-position: center;
+	object-fit: cover; */
 }
 
 .subdivision__body .phone__card {
-	background-image: url('../img/traffic1.jpg');
-	background-position: center;
-	object-fit: cover;
+	/* background-image: url('../img/traffic1.jpg'); */
+	background: #F25244;
+	/* background-position: center;
+	object-fit: cover; */
 }
 
 .china_block .phone__card {
-	background-image: url('../img/china1.jpg');
-	background-position: center;
-	object-fit: cover;
+	/* background-image: url('../img/china1.jpg'); */
+	background: #F21905;
+	/* background-position: center;
+	object-fit: cover; */
 }
 
 .murmansk_block .phone__card {
-	background-image: url('../img/murmansk.jpg');
-	background-position: center;
-	object-fit: cover;
+	/* background-image: url('../img/murmansk.jpg'); */
+	background: #1B3059;
+	/* background-position: center;
+	object-fit: cover; */
 }
 
 .containers_block .phone__card {
-	background-image: url('../img/container.jpg');
-	background-position: center;
-	object-fit: cover;
+	/* background-image: url('../img/container.jpg'); */
+	background: #405F73;
+	/* background-position: center;
+	object-fit: cover; */
 }
 
 .security__body .phone__card {
-	background-image: url('../img/security.jpg');
-	background-position: center;
-	object-fit: cover;
+	/* background-image: url('../img/security.jpg'); */
+	background: #010A26;
+	/* background-position: center;
+	object-fit: cover; */
 }
 
 .spb_block .phone__card {
-	background-image: url('../img/spb2.jpg');
-	background-position: center;
-	object-fit: cover;
+	/* background-image: url('../img/spb2.jpg'); */
+	background: #011140;
+	/* background-position: center;
+	object-fit: cover; */
 }
 
 /*
@@ -481,6 +589,7 @@ h3 {
 .fuel__body,
 .subceo__body,
 .mechanics__body,
+.submechanics__body,
 .accounting__body,
 .search_field__container,
 .repair__body,
