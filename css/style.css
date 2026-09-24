@@ -195,6 +195,7 @@ body.lock {
 }
 
 .logo__body {
+
 	border: 2px solid #DFEBEA;
 	border-radius: 10px;
 	margin: 15px;
@@ -204,6 +205,7 @@ body.lock {
 	-moz-border-radius: 10px;
 	-ms-border-radius: 10px;
 	-o-border-radius: 10px;
+
 }
 
 .logo__text {
@@ -377,7 +379,7 @@ p {
 }
 
 .yellow {
-	text-decoration: underline;
+	/* text-decoration: underline; */
 	color: #FFAA00
 }
 
@@ -649,6 +651,8 @@ p {
 	.phone__card {
 		display: block;
 		width: 95%;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.ceo__body,
@@ -656,6 +660,9 @@ p {
 	.fuel__body,
 	.search_field__container,
 	.subceo__body,
+	.mechanics__body,
+	.submechanics__body,
+	.refrepair__body,
 	.repair__body,
 	.subrepair__body,
 	.logistics__body,
@@ -666,9 +673,10 @@ p {
 	.security__body {
 		display: block;
 		position: relative;
-		justify-content: space-around;
+		justify-content: center;
 		text-align: center;
-		margin: 15px;
+		margin: 0 auto;
+		margin: 5px;
 		flex-wrap: wrap;
 	}
 }
@@ -678,7 +686,7 @@ p {
 }
 
 #searchCard {
-	width: 90%;
+	width: 95%;
 	height: 50px;
 	margin: 10px;
 	padding: 10px;
@@ -687,6 +695,8 @@ p {
 	border-radius: 5px;
 	color: #DFEBEA;
 	text-align: left;
+	justify-content: center;
+	align-items: center;
 }
 
 
