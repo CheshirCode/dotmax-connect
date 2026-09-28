@@ -99,6 +99,7 @@ h6 {
 }
 
 /* ---------------------------------------------------------------------------------------- */
+
 html,
 body {
 	height: 100%;
@@ -110,49 +111,6 @@ body {
 body.lock {
 	overflow: hidden;
 }
-
-/* Color Theme Swatches in Hex */
-.csheme-1-hex {
-	color: #0468BF;
-}
-
-.csheme-2-hex {
-	color: #F2B705;
-}
-
-.csheme-3-hex {
-	color: #F28705;
-}
-
-.csheme-4-hex {
-	color: #F25C05;
-}
-
-.csheme-5-hex {
-	color: #F21905;
-}
-
-/* Color Theme Swatches in Hex */
-.Clear-blue-Saimaa-lake-at-sunset, -Finland, -aerial-view.-Picturesque-panoramic-scenery.-Atmospheric-landscape.-Pure-nature, -ecology, -environmental-conservation, -eco-tourism, -travel-destinations-1-hex {
-	color: #759CBF;
-}
-
-.Clear-blue-Saimaa-lake-at-sunset, -Finland, -aerial-view.-Picturesque-panoramic-scenery.-Atmospheric-landscape.-Pure-nature, -ecology, -environmental-conservation, -eco-tourism, -travel-destinations-2-hex {
-	color: #B3DAF2;
-}
-
-.Clear-blue-Saimaa-lake-at-sunset, -Finland, -aerial-view.-Picturesque-panoramic-scenery.-Atmospheric-landscape.-Pure-nature, -ecology, -environmental-conservation, -eco-tourism, -travel-destinations-3-hex {
-	color: #062601;
-}
-
-.Clear-blue-Saimaa-lake-at-sunset, -Finland, -aerial-view.-Picturesque-panoramic-scenery.-Atmospheric-landscape.-Pure-nature, -ecology, -environmental-conservation, -eco-tourism, -travel-destinations-4-hex {
-	color: #D99441;
-}
-
-.Clear-blue-Saimaa-lake-at-sunset, -Finland, -aerial-view.-Picturesque-panoramic-scenery.-Atmospheric-landscape.-Pure-nature, -ecology, -environmental-conservation, -eco-tourism, -travel-destinations-5-hex {
-	color: #F2C6B6;
-}
-
 
 .wrapper {
 	display: flex;
@@ -243,6 +201,39 @@ body.lock {
 	position: relative;
 }
 
+.fast_connect__body {
+	display: flex;
+	/* flex-direction: column; */
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.button {
+
+	height: 50px;
+	border: 2px solid #0A5926;
+	flex: 0 0 20%;
+	background-color: #060775;
+	border-radius: 5px;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 10px;
+}
+
+
+.button>a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	padding: 10px;
+}
+
+
+
+.fast_connect__container,
 .ceo__container,
 .fines__container,
 .fuel__container,
@@ -264,13 +255,14 @@ body.lock {
 	padding: 10px;
 	border: 2px solid #DFEBEA;
 	border-radius: 10px;
-	background: rgba(0, 0, 0, 0.589);
+	background: rgba(0, 0, 0, 0.800);
 	flex: 1 1 auto;
 }
 
 @supports (-webkit-touch-callout: none) {
 
 	/* CSS specific to iOS devices */
+	.fast_connect__container,
 	.ceo__container,
 	.fines__container,
 	.fuel__container,
@@ -292,7 +284,7 @@ body.lock {
 		padding: 10px;
 		border: 2px solid #DFEBEA;
 		border-radius: 10px;
-		background: rgba(0, 0, 0, 0.589);
+		background: rgba(0, 0, 0, 0.800);
 		margin: 15px;
 	}
 }
@@ -303,6 +295,7 @@ body.lock {
 
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
 
+	.fast_connect__container,
 	.ceo__container,
 	.fines__container,
 	.fuel__container,
@@ -324,7 +317,7 @@ body.lock {
 		padding: 10px;
 		border: 2px solid #DFEBEA;
 		border-radius: 10px;
-		background: rgba(0, 0, 0, 0.589);
+		background: rgba(0, 0, 0, 0.800);
 		margin: 15px;
 	}
 }
@@ -358,6 +351,7 @@ h1, h2, h3 {
 	font-family: "landroverweb_bold";
 	padding: 20px 0;
 	text-align: center;
+	color: #F2B705
 }
 
 h1 {
@@ -395,64 +389,7 @@ p {
 	object-fit: contain;
 }
 
-/* Color Theme Swatches in Hex */
-.UI/UX-1-hex {
-	color: #132426;
-}
 
-.UI/UX-3-hex {
-	color: #03A64A;
-}
-
-.UI/UX-4-hex {
-	color: #0A5926;
-}
-
-.UI/UX-5-hex {
-	color: #08401B;
-}
-
-/* Color Theme Swatches in Hex */
-.UI/UX-Design-for-Marketing-Agency-Website-1-hex {
-	color: #1C2611;
-}
-
-.UI/UX-Design-for-Marketing-Agency-Website-2-hex {
-	color: #31401B;
-}
-
-.UI/UX-Design-for-Marketing-Agency-Website-3-hex {
-	color: #8EA66A;
-}
-
-.UI/UX-Design-for-Marketing-Agency-Website-4-hex {
-	color: #A9BF78;
-}
-
-.UI/UX-Design-for-Marketing-Agency-Website-5-hex {
-	color: #0D0D0D;
-}
-
-/* Color Theme Swatches in Hex */
-.Stork-Web-Design-1-hex {
-	color: #011140;
-}
-
-.Stork-Web-Design-2-hex {
-	color: #010A26;
-}
-
-.Stork-Web-Design-3-hex {
-	color: #011640;
-}
-
-.Stork-Web-Design-4-hex {
-	color: #618C7C;
-}
-
-.Stork-Web-Design-5-hex {
-	color: #0D0D0D;
-}
 
 
 .mechanics__body .phone__card {
@@ -485,9 +422,10 @@ p {
 
 .fuel__body .phone__card {
 	/* background-image: url('../img/fuel1.jpg'); */
-	background: #262626;
-	/* background-position: center;
-	object-fit: cover; */
+	background-image: url('../img/black-metal-background-or-texture_88281-4080.jpg');
+	background: #14243A;
+	background-position: center;
+	object-fit: cover;
 }
 
 .logistics__body .phone__card {
@@ -505,8 +443,8 @@ p {
 }
 
 .containers__body .phone__card {
-	/* background-image: url('../img/container2.jpg');
-	background: #405F73; */
+	/* background-image: url('../img/container2.jpg'); */
+	background: #14243A;
 	/* background-position: center;
 	object-fit: cover; */
 }
@@ -679,11 +617,30 @@ p {
 		margin: 5px;
 		flex-wrap: wrap;
 	}
+
+	.fast_connect__body {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.button {
+		margin: 10px auto;
+		justify-content: center;
+		align-items: center;
+
+		display: block;
+		flex: 1 1 auto;
+		width: 100%;
+		height: 50px;
+	}
+
+
 }
 
 .phone__card.hide {
 	display: none;
 }
+
 
 #searchCard {
 	width: 95%;
